@@ -1,7 +1,11 @@
-body:not(.fse-enabled) #site-navigation.main-navigation>div, body:not(.fse-enabled) .main-navigation.main-navigation>div {
+body.custom-background {
     display: none!important;
-    padding-left: 16px;
-    padding-right: 16px;
+    background-color: #6e5775;
+    background-image: url(https://i0.wp.com/colourlovers-static-replica.s3.amazonaws.com/images/patterns/5812/5812065.png?ssl=1);
+    background-position: left top;
+    background-size: auto;
+    background-repeat: repeat;
+    background-attachment: scroll;
 }
 
 body:not(.wp-admin) #wpadminbar, .admin-color-fresh #wpadminbar {
