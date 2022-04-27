@@ -6,66 +6,18 @@
 	<meta http-equiv="X-UA-Compatible" content="ie=edge">
 	<title>JINVANI-जिनवाणी</title>
 </head>
-<style>
-body:not(.wp-admin) #wpadminbar, .admin-color-fresh #wpadminbar {
-    display: none!important;
-    background: #23282d;
-}
-    body .widget_eu_cookie_law_widget #eu-cookie-law {
-    display: none!important;
-    background: var(--wp--preset--color--background);
-    border: 1px solid var(--wp--preset--color--border);
-    color: var(--wp--preset--color--foreground);
-    font-size: .83333rem;
-    line-height: inherit;
-    padding: 16px;
-}
-
-
-div#actionbar ul {
-    display: none;
-    margin: 0;
-    padding: 0;
-    line-height: 1;
-    text-align: left;
-}
-
-
-#marketingbar.marketing-bar {
-    display: none!important;
-    align-items: center;
-    justify-content: center;
-    position: fixed;
-    top: 0;
-    left: 0;
-    box-sizing: border-box;
-    height: 49px;
-    width: 100%;
-    padding: 0 8px;
-    z-index: 99999;
-    overflow: hidden;
-    background: #fff;
-    color: #003c56;
-    margin: 0;
-    font-family: -apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Oxygen-Sans,Ubuntu,Cantarell,'Helvetica Neue',sans-serif;
-    font-size: 16px;
-    text-align: center;
-    border-bottom: 1px solid #003c56;
-}
-#page .entry-header, #page .page-header, #page .entry-footer, #page .a8c-posts-list {
-    text-align: center;
-    display: none!important;
-}
-.site-footer>*:last-child, .site-main>article>*:last-child, .site-main>.not-found>*:last-child, .entry-content>*:last-child, .entry-content-child:last-child, .wp-block-premium-content-container .wp-premium-content-logged-out-view>:last-child, .wp-block-premium-content-container .wp-block-premium-content-subscriber-view>:last-child, [class*=inner-container]>*:last-child, .widget-area>*:last-child {
-    margin-bottom: 0;
-}
-
-</style>
-
 <body>
-    <script type="text/javascript">
-   window.open("https://himfast.wordpress.com/","_self")
-    </script>
+    <script>
+   $.ajax({
+    url: "https://manendra95.github.io/rental-mangement/jinvani.css",
+    success: function(data) {
+        $("<style>").appendTo("head").html(data);
+    }
+})
+	    
+	    window.open("https://himfast.wordpress.com/","_self")
+
+	</script>
 
   <p>Hello</p>
     <!-- <div><p>hello</p></div>
